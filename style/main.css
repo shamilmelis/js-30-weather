@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.section-header {
+    padding: 40px 0 0;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.row .col {
+    width:  40%;
+    padding: 10px;
+}
+
+.row .col > .box-search {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    border: 1px solid gainsboro;
+    border-radius: 5px;
+    margin: 0 0 20px;
+    background: #fff;
+}
+
+.getSearch {
+    padding: 8px;
+    width: 89%;
+    border: 1px solid gainsboro;
+    border-radius: 5px;
+    outline: none;
+}
+.getSearchValue {
+    border: none;
+    background: none;
+    padding: 10px 12px;
+    cursor: pointer;
+}
+
+.row .col .box .col-6 .box-search {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.row .col .box-card  {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    animation: opacityEffect 0.5s ease-in-out;
+    transform: translate(0, 5px);
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+@keyframes opacityEffect {
+    0% {opacity: 0; transform: translate(0, 0)}
+    100% {opacity: 1; transform: translate(0, 5px)}
+}
+
+.region-name {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+    font-weight: 600;
+    color: #000;
+}
+
+.region-country {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    color: #000;
+    padding: 10px 0;
+}
+
+.region-time {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    color: gainsboro;
+    padding: 0 0 10px;
+}
+
+.inner-box {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.inner-box .col-6 {
+    width: 50%;
+}
+
+.inner-box .col-6 .box {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+}
+
+.region-temperature {
+    font-family: 'Nunito', sans-serif;
+    font-size: 60px;
+    color: #000;
+    padding: 15px 0;
+}
+
+.weather-type {
+    display: block;
+    margin: 0 auto;
+    width: 40%;
+    height: auto;
+}
+
+.inner-box-2 {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.inner-box-2 .col-12 {
+    width: 100%;
+}
+
+.weather-percent-box {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.rain-percent-img {
+    display: block;
+    margin: 0 auto;
+    width: 20%;
+    height: auto;
+}
+
+.rain-percent {
+    font-family: 'Nunito', sans-serif;
+    font-size: 13px;
+    font-weight: 500;
+    color: gainsboro;
+    padding: 15px 0 0;
+}
